@@ -7,9 +7,9 @@ nodes.nodeTypes = {
   ENIX: "ENIX",
   Custom: "CUSTOM ETH"
 };
-nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
-nodes.ensSubNodeTypes = [nodes.nodeTypes.ETH];
-nodes.domainsaleNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
+nodes.ensNodeTypes = [nodes.nodeTypes.ENIX, nodes.nodeTypes.Ropsten];
+nodes.ensSubNodeTypes = [nodes.nodeTypes.ENIX];
+nodes.domainsaleNodeTypes = [nodes.nodeTypes.ENIX, nodes.nodeTypes.Ropsten];
 nodes.customNodeObj = {
   name: "CUS",
   blockExplorerTX: "",
@@ -23,7 +23,7 @@ nodes.customNodeObj = {
   lib: null
 };
 nodes.nodeList = {
-  ENIX: {
+  'eth_mew': {
     name: "ENIX",
     blockExplorerTX: "https://explorer.enix.ai/tx/[[txHash]]",
     blockExplorerAddr: "https://explorer.enix.ai/address/[[address]]",
