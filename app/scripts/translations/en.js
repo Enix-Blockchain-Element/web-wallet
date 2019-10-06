@@ -561,7 +561,7 @@ tx_notFound_1                   :  'This TX cannot be found in the TX Pool of th
 tx_notFound_2                   :  'If you just sent the transaction, please wait 15 seconds and press the "Check TX Status" button again.',
 tx_notFound_3                   :  'It could still be in the TX Pool of a different node, waiting to be mined.',
 tx_notFound_4                   :  'Please use the dropdown in the top-right & select a different ETH node (e.g. `ETH (Etherscan.io)` or `ETH (Infura.io)` or `ETH (MyEtherWallet)`) and check again.',
-tx_Summary                      :  'During times of high volume (like during ICOs) transactions can be pending for hours, if not days. This tool aims to give you the ability to find and "cancel" / replace these TXs. ** This is not typically something you can do. It should not be relied upon & will only work when the TX Pools are full. [Please, read about this tool here.](https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html)**',
+tx_Summary                      :  'At times of high transaction volume, transactions for hours, if not days, can remain "pending". The purpose of this tool is to give you the option to track these TXs and to "cancel" / replace them. This is not something you can typically do. You should not trust that this works & it can only work if the TX is full. [Please, read about this tool here.](https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html)**',
 
 TXFEE_Desc                      :  'The TX Fee is paid to miners for including your TX in a block. Is is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://wallet.enix.ai/helpers.html)',
 

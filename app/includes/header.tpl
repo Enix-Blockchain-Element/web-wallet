@@ -74,10 +74,7 @@
     <section class="bg-gradient header-branding">
       <section class="container">
         @@if (site === 'mew' ) {
-        <a class="brand" href="/" aria-label="Go to homepage">
-          <img src="images/myetherwallet-logo.png" height="100%" width="100%" alt="Enix" />
-          <p class="small visible-xs">3.38.0</p>
-        </a>
+        
         }
         @@if (site === 'cx' ) {
         <a class="brand" href="/cx-wallet.html" aria-label="Go to homepage">
@@ -146,7 +143,6 @@
                 </p>
                 <br />
                 <p class="small" style="white-space:normal;font-weight:300;margin: 2rem 0 0;" translate="GAS_PRICE_Desc"></p>
-                <a class="small" translate="x_ReadMore" href="https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html" target="_blank" rel="noopener noreferrer"></a>
               </div>
             </ul>
           </span>
@@ -165,11 +161,6 @@
                   {{value.name}}
                   <small> ({{value.service}}) </small>
                   <img ng-show="value.service=='Custom'" src="images/icon-remove.svg" class="node-remove" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)" />
-                </a>
-              </li>
-              <li>
-                <a ng-click="customNodeModal.open(); dropdownNode = !dropdownNode;" translate="X_Network_Custom">
-                  Add Custom Network / Node
                 </a>
               </li>
             </ul>
@@ -198,7 +189,7 @@
             <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a>
           </li>
           }
-          <li class="nav-item help">
+          <li class="nav-item help ng-hide">
             <a href="https://kb.myetherwallet.com/" target="_blank" rel="noopener noreferrer">
               <span translate="NAV_Help">
                 Help

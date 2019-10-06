@@ -97,6 +97,7 @@
       right: .1rem;
       left: auto;
       overflow: unset;
+      top: 82%;
       p {
         padding: 0;
       }
@@ -124,7 +125,7 @@
 }
 
 .dropdown-menu {
-  overflow-y: auto;
+  overflow: auto;
   right: .1rem;
   margin: .1rem 0 0;
 }
@@ -155,6 +156,9 @@
       .nav-item {
         display: inline-block;
         font-size: 0;
+        &.NAV_ENS{
+        	display: none !important;
+        }
         &.NAV_Swap a:before {
           content:"";
           display: inline-block;

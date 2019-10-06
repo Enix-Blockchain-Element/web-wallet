@@ -32,6 +32,5 @@
 
 <header class="bg-gradient text-white">
 <section class="container text-center">
-  <a href="https://wallet.enix.ai/"><img src="images/myetherwallet-logo.png" height="50px" width="25%" alt="Enix Wallet" class="embedded-logo" /></a>
 </section>
 </header>
